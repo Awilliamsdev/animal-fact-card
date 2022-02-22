@@ -1,0 +1,42 @@
+/* add your CSS here */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    box-shadow: 10px 5px 5px lightgray;
+    padding: 5px;
+    width: 310px;
+    position: absolute;
+}
+
+.card-container h3{
+    align-self: flex-start;
+    padding: 0px 5px;
+}
+
+.bottom {
+    border: 1px solid lightgray;
+    padding: 10px;
+    max-width: 280px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+.bottom span {
+    font-weight: bold;
+    
+}
+
+.bottom li {
+    list-style: none;
+}
+
+ul {
+padding-left: 0px;
+}
+
+img {
+    width: 300px;
+}
+
